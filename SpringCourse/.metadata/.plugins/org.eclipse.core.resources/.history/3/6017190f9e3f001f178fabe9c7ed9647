@@ -1,0 +1,6 @@
+ <%@include file="common/header.jspf" %>
+<%@include file="common/naviagation.jspf" %>
+<body>
+   <h1>Welcome user ${uname} and your password is ${pwd}</h1>
+</body>
+ <%@include file="common/footer.jspf" %>

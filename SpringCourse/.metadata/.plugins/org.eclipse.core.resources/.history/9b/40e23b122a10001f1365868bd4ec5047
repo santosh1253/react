@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>List Todo's page</title>
+</head>
+<body>
+     <div>Welcome ${name}</div>
+     <h3>Your Todo's are</h3>
+    <div>${todos}</div>
+</body>
+</html>

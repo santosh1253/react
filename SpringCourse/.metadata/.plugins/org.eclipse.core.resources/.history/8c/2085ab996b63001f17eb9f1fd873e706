@@ -1,0 +1,5 @@
+package com.ravi.sample.controller;
+
+public class StudentController {
+
+}

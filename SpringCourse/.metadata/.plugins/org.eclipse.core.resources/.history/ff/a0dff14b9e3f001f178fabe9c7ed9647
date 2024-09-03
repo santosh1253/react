@@ -1,0 +1,7 @@
+ <%@include file="common/header.jspf" %>
+<%@include file="common/naviagation.jspf" %>
+<body>
+   <h1>Welcome To The Website</h1>
+   <h4>Manage your todo's here<a href="./listTodos">todo's</a></h4>
+</body>
+ <%@include file="common/footer.jspf" %>
