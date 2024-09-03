@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<center><h2>Registration</h2></center>
+<form action="insert.jsp" method="post" action=insert.jsp>
+<table cellspacing=10 cellpadding=5 align="center">
+<tr><td>Name:</td><td><input type="text" name="name"></td></tr>
+<tr><td>Id:</td><td><input type="text" name="id"></td></tr>
+<tr><td>Email:</td><td><input type="email" name="email"></td></tr>
+<tr><td>Mobile Number:</td><td><input type="number" name="no"></td></tr>
+<tr><td>Password:</td><td><input type="password" name="pwd"></td></tr>
+<tr><td>Blood Group:</td>
+<td><select name="blood">
+<option value="O-Positive">O-Positive</option>
+<option value="O-Negitive">O-Negative</option>
+<option value="A-Positive">A-Positive</option>
+<option value="A-Negitive">A-Negative</option>
+<option value="B-Positive">B-Positive</option>
+<option value="B-Negitive">B-Negative</option>
+<option value="AB-Positive">AB-Positive</option>
+<option value="AB-Negitive">AB-Negative</option>
+</select>
+</td></tr>
+<tr><td>Gender:</td><td><input type=radio name=gender value=Male>Male<input type=radio name=gender value=Female>Female</td></tr>
+<tr><td>Age:</td><td><input type="number" name="age"></td></tr>
+<tr><td>Weight:</td><td><input type="number" name="weight"></td></tr>
+<tr><td>Donated in last 6 months</td>
+<td><select name="donated">
+<option value="yes">Yes</option>
+<option  value="no">No</option>
+</select>
+</td>
+</tr>
+<tr><td>Location:</td><td><input type="text" name="loc"></td></tr>
+<tr><td><input type="submit" value="SignUp"></td><td><input type="reset" value="Clear">
+</table>
+<center>Already have an account?<a href="Login.html"> Sign In</a></center>
+</form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+package coding;
+
+public class Pattern {
+ public static void main(String args[])
+ {
+
+	         //add code here.
+	           String s="cddgk";
+	           String s1="gdk";
+	          StringBuffer sb=new StringBuffer(s);
+	          StringBuffer sb1=new StringBuffer(s1);
+	          for(int i=0;i<sb1.length();i++)
+	          {
+	              if(s.contains(String.valueOf(sb1.charAt(i))))
+	              {
+	                  int res=s.indexOf(sb1.charAt(i));
+	                  sb.deleteCharAt(res);
+	                  
+	              }
+	          }
+	          return sb1.length();
+ }
+}

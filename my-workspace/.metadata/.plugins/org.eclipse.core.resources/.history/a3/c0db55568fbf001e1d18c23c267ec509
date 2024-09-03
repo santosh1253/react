@@ -1,0 +1,11 @@
+package coding;
+
+public class Pattern {
+ public static void main(String args[])
+ {
+	 String res=new String("JAVA programming java");
+	 res=res.toLowerCase();
+	 res.
+	 String fin=(String) res.subSequence(0, 9);
+ }
+}

@@ -1,0 +1,76 @@
+package com.Guru.taskproject.serviceImpl;
+
+import java.util.List;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.Guru.taskproject.entity.Address;
+import com.Guru.taskproject.entity.User;
+import com.Guru.taskproject.payload.TaskDto;
+import com.Guru.taskproject.payload.UserDto;
+import com.Guru.taskproject.repository.UserRepo;
+import com.Guru.taskproject.service.AddressService;
+import com.Guru.taskproject.service.TaskService;
+import com.Guru.taskproject.service.UserService;
+@Service
+public class UserServiceImpl implements UserService{
+	@Autowired
+	private ModelMapper modelMapper;
+	@Autowired
+	private UserRepo userRepo;  
+	@Autowired
+	private TaskService taskService;
+	@Autowired
+	private AddressService addressService;
+	@Override
+	public UserDto createUser(UserDto userDto) {
+		// TODO Auto-generated method stub
+		User user=userDtoToEntity(userDto); 
+	    User savedUser=userRepo.save(user);
+	    return EntityToUserDto(savedUser);
+		
+	}
+	private User userDtoToEntity(UserDto userDto)
+	{
+		User user=new User();
+		user.setName(userDto.getName());
+		user.setEmail(userDto.getEmail());
+		user.setPassword(userDto.getPassword());
+		return user;
+	}
+	private UserDto EntityToUserDto(User savedUser)
+	{
+		UserDto userDto=new UserDto();
+		userDto.setId(savedUser.getId());
+		userDto.setEmail(savedUser.getEmail());;
+		userDto.setName(savedUser.getName());
+		userDto.setPassword(savedUser.getPassword());
+		return userDto;
+		
+	}
+//	@Override
+//	public List<UserDto> getAllTasksByName(String name) {
+//		//userRepo.getAllTasksByName(name).orElseThrow(()->new UserNotFound(String.format("User id %d not found",userid)));
+//		List<User> users=userRepo.getAllTasksByName(name);
+//		return users.stream().map(
+//				user->modelMapper.map(user , UserDto.class)
+//				).collect(Collectors.toList());
+//		
+//	}
+	@Override
+	public User fetchUser(long id) {
+		// TODO Auto-generated method stub
+		List<Address> addresses=addressService.getAddress();
+		for(Address x: addresses)
+		{
+			System.out.println(x);
+		}
+		List<TaskDto> result=taskService.getAllTasks(id);
+		System.out.println(result); 
+		return userRepo.fetchUser(id);
+	}   
+	
+
+}

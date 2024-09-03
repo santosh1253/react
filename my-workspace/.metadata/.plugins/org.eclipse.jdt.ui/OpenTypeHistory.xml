@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=Student/src\/main\/java&lt;com.sis.dao{PaymentService.java[PaymentService" modifiers="513" timestamp="1705751857080"/>
+    <typeInfo handle="=myproject/C:\/Users\/abc\/Downloads\/servlet-api.jar&lt;javax.servlet(GenericServlet.class[GenericServlet" modifiers="1057" timestamp="1364136398000"/>
+    <typeInfo handle="=myproject/src\/main\/java&lt;com.guru.database{DatabaseConnection.java[DatabaseConnection" modifiers="513" timestamp="1709806532660"/>
+    <typeInfo handle="=Guru/C:\/Program Files\/Java\/jdk-19\/lib\/jrt-fs.jar`java.sql=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/19\/docs\/api\/=/=/module=/true=/&lt;java.sql(Connection.class[Connection" modifiers="1537" timestamp="1667623344558"/>
+    <typeInfo handle="=demo/C:\/Users\/abc\/.m2\/repository\/com\/mysql\/mysql-connector-j\/8.0.32\/mysql-connector-j-8.0.32.jar=/maven.pomderived=/true=/=/test=/true=/=/maven.groupId=/com.mysql=/=/maven.artifactId=/mysql-connector-j=/=/maven.version=/8.0.32=/=/maven.scope=/runtime=/=/maven.pomderived=/true=/&lt;com.mysql.cj.jdbc(ConnectionImpl.class[ConnectionImpl" modifiers="33" timestamp="1678794428647"/>
+</typeInfoHistroy>

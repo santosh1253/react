@@ -1,0 +1,15 @@
+127.0.0.1 - - [05/Jan/2024:10:59:20 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:10:59:21 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:00:31 +0530] "POST /My_App/insert.jsp HTTP/1.1" 500 3813
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:00:48 +0530] "POST /My_App/insert.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:00:48 +0530] "GET /My_App/Login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:01:13 +0530] "POST /My_App/check.jsp HTTP/1.1" 500 2512
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:02:00 +0530] "POST /My_App/check.jsp HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:02:09 +0530] "POST /My_App/check.jsp HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:02:13 +0530] "POST /My_App/check.jsp HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:02:27 +0530] "POST /My_App/check.jsp HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:04:53 +0530] "POST /My_App/check.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:04:53 +0530] "GET /My_App/display.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:04:53 +0530] "GET /My_App/file.css HTTP/1.1" 404 770
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:05:31 +0530] "GET /My_App/search.jsp?bgroup=O-Negitive&age=&weight=&location= HTTP/1.1" 200 893
+0:0:0:0:0:0:0:1 - - [05/Jan/2024:11:06:03 +0530] "GET /My_App/search.jsp?bgroup=O-Positive&age=&weight=&location= HTTP/1.1" 200 3475

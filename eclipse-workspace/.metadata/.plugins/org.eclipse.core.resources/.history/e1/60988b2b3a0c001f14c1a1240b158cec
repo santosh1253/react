@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" import="java.sql.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+  <%
+    String email=request.getParameter("email");
+    String pwd=request.getParameter("pwd");
+    String url="jdbc:mysql://localhost:3306/student";
+    Class.forName("com.mysql.jdbc.Driver");
+    Connection con=DriverManager.getConnection(url,"root","Guru@1253");
+    Statement st=con.createStatement();
+    String query="insert into stud values('ravi@gmail.com',23)";
+    boolean b=st.execute(query);
+    if(!b)
+    {
+    	out.println("inserted sucessfully");
+    }
+    else
+    {
+    	out.println("error");
+    }
+  %>
+</body>
+</html>

@@ -1,0 +1,5 @@
+127.0.0.1 - - [25/Jul/2024:07:56:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:07:56:10 +0530] "GET /gnu/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:07:56:10 +0530] "GET /gnu/empty-hallway-background.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:07:56:10 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:07:56:19 +0530] "GET /gnu/login.jsp?email=konkimalla1253%40gmail.com&pwd=%2Cm HTTP/1.1" 200 1479

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/abc/Downloads/spring-framework-2.0.5-with-dependencies/spring-framework-2.0.5/dist/modules/spring-beans.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/abc/Downloads/spring-framework-2.0.5-with-dependencies/spring-framework-2.0.5/dist/modules/spring-context.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/abc/Downloads/spring-framework-2.0.5-with-dependencies/spring-framework-2.0.5/dist/modules/spring-core.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/abc/Downloads/spring-framework-2.0.5-with-dependencies/spring-framework-2.0.5/dist/modules/spring-dao.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
